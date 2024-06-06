@@ -33,7 +33,7 @@ export default {
 
     async function load() {
       try {
-        const response = await axios.get('http://localhost:3000/articles');
+        const response = await axios.get('https://tugas6-prak-pbk-nu.vercel.app/');
         articles.value = response.data;
       } catch (error) {
         console.error('Error loading articles:', error);
@@ -43,8 +43,8 @@ export default {
     async function save() {
       try {
         const url = form.id
-          ? `http://localhost:3000/articles/${form.id}`
-          : 'http://localhost:3000/articles';
+          ? `https://tugas6-prak-pbk-nu.vercel.app/${form.id}`
+          : 'https://tugas6-prak-pbk-nu.vercel.app/';
         const method = form.id ? 'put' : 'post';
         const response = await axios[method](url, form);
 
@@ -65,7 +65,7 @@ export default {
 
     async function remove(articleId) {
       try {
-        await axios.delete(`http://localhost:3000/articles/${articleId}`);
+        await axios.delete(`https://tugas6-prak-pbk-nu.vercel.app/${articleId}`);
         articles.value = articles.value.filter((article) => article.id !== articleId);
       } catch (error) {
         console.error("Error deleting article:", error);
