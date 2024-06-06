@@ -1,0 +1,54 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "title": "judul",
+      "content": "ini content"
+    },
+    {
+      "id": "2",
+      "title": "judul 2",
+      "content": "ini content 2"
+    },
+    {
+      "id": "3",
+      "title": "judul 3",
+      "content": "ini content 3"
+    },
+    {
+      "id": null,
+      "title": "4",
+      "content": "sdafaf"
+    },
+    {
+      "id": null,
+      "title": "",
+      "content": ""
+    },
+    {
+      "id": null,
+      "title": "",
+      "content": ""
+    },
+    {
+      "id": null,
+      "title": "",
+      "content": ""
+    },
+    {
+      "id": null,
+      "title": "7",
+      "content": "dfesfd"
+    },
+    {
+      "id": null,
+      "title": "sdad",
+      "content": "adasdas"
+    },
+    {
+      "id": null,
+      "title": "or",
+      "content": "orori"
+    }
+  ]
+}
